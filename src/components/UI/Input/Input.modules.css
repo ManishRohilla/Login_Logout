@@ -27,14 +27,16 @@
 
 .control input:focus {
   outline: none;
-  border-color: #4f005f;
+  border-color: #3e2baa;
   background: #f6dbfc;
 }
 
-.control.invalid input {
+.control.invalid input:focus {
+  outline: none;
   border-color: red;
-  background: #fbdada;
+  background: #b78585;
 }
+
 .actions {
   text-align: center;
 }
